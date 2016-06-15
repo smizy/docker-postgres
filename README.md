@@ -19,6 +19,6 @@ This image works in the same way the official `postgres` docker image work.
 README: [https://hub.docker.com/_/postgres/](https://hub.docker.com/_/postgres/)
 
 ```
-# run contaienr 
+# run container
 $ docker run  -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d smizy/postgres
 ```
