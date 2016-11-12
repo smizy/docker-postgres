@@ -48,4 +48,4 @@ deployment:
       - docker push smizy/postgres:${TAG_MAJOR}
       - docker push smizy/postgres:latest
       - docker logout
-      - curl -X POST 'https://hooks.microbadger.com/images/smizy/postgres/kt4cBzU-RiGizff2lIWPLX61Dz8='
+      - curl -X POST 'https://hooks.microbadger.com/images/smizy/postgres/s_qvVZ-b6_ekmAK6NqPAapc3Ls8='
