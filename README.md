@@ -13,8 +13,9 @@ PostgreSQL docker image based on Alpine Linux
 
 ```
 REPOSITORY          TAG            IMAGE ID            CREATED             SIZE
-postgres            9.5            fc96933583ad        3 days ago          263.9 MB
-smizy/postgres      9.5-alpine     e27b576b8cef        16 minutes ago      26.32 MB
+postgres            9.6            0e24dd8079dc        3 weeks ago         264.9 MB
+smizy/postgres      9.6-alpine     9bf1f53bc202        27 minutes ago      26.15 MB
+
 ```
 
 ## Usage
