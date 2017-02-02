@@ -9,7 +9,7 @@ LABEL \
     org.label-schema.build-date=$BUILD_DATE \
     org.label-schema.docker.dockerfile="/Dockerfile" \
     org.label-schema.license="MIT License" \
-    org.label-schema.name="smizy/php" \
+    org.label-schema.name="smizy/postgres" \
     org.label-schema.url="https://github.com/smizy" \
     org.label-schema.vcs-ref=$VCS_REF \
     org.label-schema.vcs-type="Git" \
