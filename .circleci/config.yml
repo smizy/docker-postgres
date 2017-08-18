@@ -27,7 +27,8 @@ jobs:
           command: |
             apk --no-cache add \
               bash \
-              curl \
+              # workaroud to "curl: (48) An unknown option was passed in to libcurl"
+              curl-dev \
               make
 
       - run:
