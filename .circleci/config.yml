@@ -27,6 +27,7 @@ jobs:
           command: |
             apk --no-cache add \
               bash \
+              curl \
               curl-dev \
               make
 
