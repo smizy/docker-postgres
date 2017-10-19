@@ -4,11 +4,11 @@ jobs:
     working_directory: ~/deps
 
     docker:
-      - image: docker:17.05.0-ce-git
+      - image: docker:17.06.0-ce-git
 
     environment:
-      VERSION: "9.6.4"
-      TAG: "9.6.4-alpine"
+      VERSION: "9.6.5"
+      TAG: "9.6.5-alpine"
       # TAG: ${VERSION}-alpine
       # TAG_MINOR: ${VERSION%.*}-alpine
       # TAG_MAJOR: ${VERSION%%.*}-alpine 
@@ -20,7 +20,7 @@ jobs:
       - checkout
 
       - setup_remote_docker:
-          version: 17.05.0-ce          
+          version: 17.06.0-ce          
 
       - run:
           name: install dependencies - lib
@@ -61,7 +61,7 @@ jobs:
             make test
 
       - run:
-          nmae: docker image push
+          name: docker image push
           command: |
             
             TAG_MINOR=${VERSION%.*}-alpine
